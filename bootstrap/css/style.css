@@ -1,0 +1,44 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+.fullscreen-landing
+{
+    background: white url("../../img/last.jpg") no-repeat center scroll;
+    height:100vh;
+    background-size: cover;
+}
+
+.overlay
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.search-box
+{
+    height: 50px;
+    width: 500px;
+}
+
+.subscribe-sec
+{
+    background: white url("../../img/last.jpg") no-repeat center scroll;
+    background-size: cover;
+}
+
+.subscribe-overlay
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .search-box{
+       width: 300px;
+    }
+
+}
